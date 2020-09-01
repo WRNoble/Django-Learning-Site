@@ -1,1 +1,1 @@
-web: gunicorn djangolearningromesite.wsgi --log-file -
+web: gunicorn djangolearning_site.wsgi --log-file -
