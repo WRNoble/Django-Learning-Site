@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath djangolearningromesite djangolearningromesite.wsgi --log-file -
+web: gunicorn djangolearningromesite.wsgi:application --log-file- --log-level debug
