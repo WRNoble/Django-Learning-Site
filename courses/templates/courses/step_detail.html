@@ -1,6 +1,6 @@
 {% extends "layout.html" %} {% block title %}{{ step.title }} - {{
 step.course.title }} {% endblock %} {% block content %}
-<article>
+<article class="cards card">
   <h2>
     <a href="{% url 'courses:detail' pk=step.course.pk %}"
       >{{ step.course.title }}</a
